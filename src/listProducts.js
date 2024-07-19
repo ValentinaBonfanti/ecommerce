@@ -1,10 +1,13 @@
+import macbook from "../src/img/macbook.png"
+import applewatch from "../src/img/apple watch.png"
+
 const products = [
     {
         id:1,
         categoryId:"notebooks",
         name:"MacBook",
         description:"MacBook Pro 13'",
-        img:"https://d26lpennugtm8s.cloudfront.net/stores/001/063/033/products/prod-141-17d52c3880823e17f615718526349866-480-0.jpg",
+        img: macbook,
         price:"$89.999,00",
         stock:95
     },
@@ -13,7 +16,7 @@ const products = [
         categoryId:"smartwatches",
         name:"Watch",
         description:"White Smartwatch",
-        img:"https://d26lpennugtm8s.cloudfront.net/stores/001/063/033/products/prod-11-29d75e057330bb437c15706249551096-480-0.jpg",
+        img: applewatch,
         price:"$8.999,00",
         stock:80
     },
