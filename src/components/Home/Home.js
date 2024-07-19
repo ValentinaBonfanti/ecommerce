@@ -4,10 +4,12 @@ import products from "../../listProducts";
 import ItemsCard from "../Items/ItemsCard";
 import styles from "../../css/Home.module.css";
 import {  AppBar,Toolbar, Typography,Image, Box } from "@mui/material";
-import background from "../../img/background.webp"
+import background from "../../img/background.webp";
+import Carrusel from "./Carrusel";
 
 
 const Home = () => {
+ 
   return (
     <>
      <AppBar>
@@ -17,9 +19,11 @@ const Home = () => {
       </AppBar>
       
       <Toolbar id="back-to-top-anchor" />
-      <Box className={styles.box}>
+      <Carrusel/>
+      {/*<Box className={styles.box}>
       <img src={background} alt= "not found" width="100%" height="auto"/>
-      </Box>
+      </Box>*/}
+
     <div className={styles.itemContainer}>
   {
              products && products
