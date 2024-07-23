@@ -6,19 +6,13 @@ import styles from "../../css/Home.module.css";
 import {  AppBar,Toolbar, Typography,Image, Box } from "@mui/material";
 import background from "../../img/background.webp";
 import Carrusel from "./Carrusel";
-
+import NavBar from "./NavBar";
 
 const Home = () => {
  
   return (
     <>
-     <AppBar>
-        <Toolbar>
-          <Typography variant="h6">Ecommerce</Typography>
-        </Toolbar>
-      </AppBar>
-      
-      <Toolbar id="back-to-top-anchor" />
+      <NavBar/>
       <Carrusel/>
       {/*<Box className={styles.box}>
       <img src={background} alt= "not found" width="100%" height="auto"/>
