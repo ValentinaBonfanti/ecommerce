@@ -1,13 +1,14 @@
 import macbook from "../src/img/macbook.png"
 import applewatch from "../src/img/apple watch.png"
+import cuencoL from "../src/img/Cuenco L.jpeg"
 
 const products = [
     {
         id:1,
-        categoryId:"notebooks",
-        name:"MacBook",
-        description:"MacBook Pro 13'",
-        img: macbook,
+        categoryId:"velas",
+        name:"Cuenco L",
+        description:"Contenido Neto: 135gr",
+        img: cuencoL,
         price:"$89.999,00",
         stock:95
     },
